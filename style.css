@@ -1,0 +1,32 @@
+.click{
+  style:line-height:80%;
+  font-size:21px;
+  color:blue;
+
+}
+
+.menu{
+  display:none;
+  list-style-type:none;
+
+
+
+}
+.open{
+
+  margin:0px;
+  background-color:white  ;
+  position:absolute;
+  display:inline-block;
+  transition:2s all;
+  z-index:1;
+
+}
+.click ::before{
+ content: '>';
+      font-size: 80%;
+      color: green;
+
+}
+
+
